@@ -214,6 +214,8 @@ Simply click on the corresponding export button in the toolbar and follow the pr
 
 The [Zotero-GPT](https://github.com/MuiseDestiny/zotero-gpt) plugin provides GPT Integration. If you also have Better Notes installed, you can wake up its chatting pane in the note editor and insert/modify content in the note.
 
+> 💡 **Need help choosing an LLM model?** If you have limited GPU memory or want to run models locally, check out our [guide to memory-efficient LLM models](docs/memory-efficient-llm-models.md) that work well with Zotero-GPT integration.
+
 ### Action Workflow
 
 The [Actions & Tags](https://github.com/windingwind/zotero-actions-tags) plugin provides a powerful workflow engine for Zotero. If you also have Better Notes installed, you can use the following actions to automate note generation/editing/syncing/etc.:
