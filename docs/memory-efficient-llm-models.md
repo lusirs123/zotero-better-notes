@@ -59,10 +59,10 @@ Suitable for mid-range GPUs (GTX 1060, RTX 3050, etc.):
 
 For dedicated GPUs (RTX 3060, RTX 4060, etc.):
 
-1. **Mistral-7B (FP16)**
-   - **VRAM Required**: ~14GB (full precision), ~8GB (8-bit)
+1. **Mistral-7B (8-bit quantization)**
+   - **VRAM Required**: ~8GB
    - **Parameters**: 7 billion
-   - **Strengths**: State-of-the-art performance for 7B size
+   - **Strengths**: State-of-the-art performance for 7B size with minimal quality loss
    - **Use Cases**: Advanced research assistance, literature synthesis
 
 2. **Llama-2-13B (Quantized)**
@@ -76,12 +76,12 @@ For dedicated GPUs (RTX 3060, RTX 4060, etc.):
 If you don't have a GPU or prefer not to run models locally:
 
 1. **OpenAI GPT-3.5-Turbo**
-   - **Cost**: Pay-per-use (~$0.002/1K tokens)
+   - **Cost**: Pay-per-use (pricing varies, check [OpenAI pricing](https://openai.com/pricing))
    - **Strengths**: Fast, reliable, no setup required
    - **Use Cases**: All note-taking tasks
 
 2. **OpenAI GPT-4**
-   - **Cost**: Higher pay-per-use (~$0.03/1K tokens)
+   - **Cost**: Pay-per-use (pricing varies, check [OpenAI pricing](https://openai.com/pricing))
    - **Strengths**: Most capable, best reasoning
    - **Use Cases**: Complex research synthesis, detailed analysis
 
